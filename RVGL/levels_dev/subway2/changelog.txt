@@ -1,0 +1,30 @@
+subway2backup.ncp
+- Remove doubles
+
+subway2backup2.ncp
+- Move ramp after the big U-turn to the station
+
+subway2backup3.ncp
+- Modified meshes for every turnstile.
+
+subway2backup4.ncp
+- Modified window corner at the stairs with the triangle gap.
+
+subway2backup5.ncp
+- All doubles fixed
+
+subway2backup6.ncp
+- Set the moved ramp at exact position than in .w file
+
+subway2.ncp = final v1
+- Taken from bak4. Removed doubles at double ramp and ramp at station at exact position than in .w
+
+
+subway2.bak.w
+- Original world (slow loading) with ramp moved (..backup2.ncp)
+
+subway2backup1.w
+- Same as .bak but after WorldCut applied.
+
+subway2bak.w = copied to final folder
+- Tag arrow added at jump but the 4-ramps remains with original texture. No WorldCut applied.

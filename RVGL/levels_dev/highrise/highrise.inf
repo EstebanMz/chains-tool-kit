@@ -1,0 +1,22 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Edit Mode';'Highrise'
+STARTPOS        4999 -12 17595
+STARTROT        0.50
+STARTGRID       3
+DIFFICULTY      3
+FARCLIP         100000	; 10000 Original value
+FOGSTART        80000	; 8000 Original value
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+GAMETYPE        4
+SWEEPCAM        1
+ENDPOS          10412 -2513 8996
+
+MUSIC           'levels\highrise\custom\badlands1.mp3'
