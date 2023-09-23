@@ -1,0 +1,15 @@
+		CBLOCK
+		contador
+		ENDC
+		
+INTERRUPCION
+		CALL	Retardo_20ms
+		BTFSS	PORTB,0
+		GOTO	LIMPIAR_INTF
+		INCF	contador,F
+		MOVF	contador,W
+		
+LIMPIAR_INTF
+		BCF		INTCON,INTF
+		RETFIE
+		
